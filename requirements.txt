@@ -1,0 +1,11 @@
+# HelmNet — pinned dependencies
+# Versions match the environment the notebook was validated in.
+
+tensorflow==2.19.0
+scikit-learn==1.6.1
+opencv-python==4.12.0.88
+seaborn==0.13.2
+matplotlib==3.10.0
+numpy==2.0.2
+pandas==2.2.2
+jupyterlab>=4.0.0

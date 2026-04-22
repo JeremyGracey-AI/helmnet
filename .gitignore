@@ -1,0 +1,61 @@
+# Data (never commit the dataset)
+data/*.npy
+data/*.csv
+data/*.zip
+data/images/
+data/raw/
+!data/README.md
+
+# Trained model artifacts (too large; commit to GitHub Releases or HF Hub instead)
+*.keras
+*.tflite
+*.h5
+*.pb
+models/
+checkpoints/
+saved_model/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Logs / runs
+logs/
+runs/
+mlruns/
+wandb/
+tensorboard/
